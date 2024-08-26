@@ -14,7 +14,7 @@ This project's questions and instructions were sourced from this link:
 <br/>
 
 
-### Walmart Sales Data Dictionary
+## Walmart Sales Data Dictionary
 | Column                     | Description                                | Data type        |
 | -------------------------  | ------------------------------------------ | ---------------- |
 | invoice_id                 | Invoice of the sales made                  | VARCHAR(30)      |
@@ -38,7 +38,7 @@ This project's questions and instructions were sourced from this link:
 <br/>
 
 
-### Approach Used
+## Approach Used
 1. **Feature Engineering:** This will help use generate some new columns from existing ones.
 
 > 1. Add a new column named `time_of_day` to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
@@ -54,26 +54,26 @@ This project's questions and instructions were sourced from this link:
 <br/>
 
 
-### Business Questions To Answer
+## Business Questions To Answer
 
-## Product and Place
+### Product and Place
 1. How many unique product lines does the data have?
 2. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
 3. Which branch sold more products than average product sold?
 4. What is the most common product line by gender?
 5. What is the average rating of each product line?
 
-## Finance
+### Finance
 1. What is the total revenue by month?
 2. What month had the largest COGS?
 3. What product line had the largest revenue?
 
-## Sales
+### Sales
 1. Number of sales made in each time of the day per weekday
 2. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
 3. Which customer type pays the most in VAT? (**If VAT = 5\%**)
 
-## Customer
+### Customer
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?
 3. Which customer type buys the most?
