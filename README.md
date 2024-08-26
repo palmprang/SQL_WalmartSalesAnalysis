@@ -1,6 +1,6 @@
 # SQL_WalmartSalesAnalysis
 
-This SQL project explore into Walmart's sales data to identify top-performing branches and products, analyze sales trends, and understand customer behavior.
+This SQL project explore into Walmart's sales data to identify top-performing branches and products, analyze finance and sales trends, and understand customer behavior.
 
 This project's questions and instructions were sourced from this link:
 [https://github.com/Princekrampah/WalmartSalesAnalysis](https://github.com/Princekrampah/WalmartSalesAnalysis)
@@ -16,26 +16,27 @@ This project's questions and instructions were sourced from this link:
 
 ### Walmart Sales Data Dictionary
 | Column                     | Description                                | Data type        |
-| ------------------------- | ------------------------------------------ | ---------------- |
+| -------------------------  | ------------------------------------------ | ---------------- |
 | invoice_id                 | Invoice of the sales made                  | VARCHAR(30)      |
 | branch                     | Branch at which sales were made            | VARCHAR(5)       | 
 | city                       | The location of the branch	                | VARCHAR(30)      |
 | customer_type	             | The type of the customer	                  | VARCHAR(30)      |
-| gender	                   | Gender of the customer making purchase	    | VARCHAR(10)      |
-| product_line	             | Product line of the product solf	          | VARCHAR(100)     |
-| unit_price                 | The price of each product	                | DECIMAL(10, 2)   |
-| quantity	                 | The amount of the product sold	            | INT              |
-| vat	                       | The amount of tax on the purchase	        | FLOAT(6, 4)      |
+| gender	                    | Gender of the customer making purchase	    | VARCHAR(10)      |
+| product_line	              | Product line of the product solf	          | VARCHAR(100)     |
+| unit_price                 | The price of each product	                 | DECIMAL(10, 2)   |
+| quantity	                  | The amount of the product sold	            | INT              |
+| vat	                       | The amount of tax on the purchase	         | FLOAT(6, 4)      |
 | total	                     | The total cost of the purchase	            | DECIMAL(10, 2)   |
-| date	                     | The date on which the purchase was made	  | DATE             |
-| time	                     | The time at which the purchase was made	  | TIMESTAMP        |
-| payment_method             | The total amount paid	                    | DECIMAL(10, 2)   |
-| cogs	                     | Cost Of Goods sold	                        | DECIMAL(10, 2)   |
-| gross_margin_percentage	   | Gross margin percentage	                  | FLOAT(11, 9)     |
-| gross_income	             | Gross Income	                              | DECIMAL(10, 2)   |
-| rating	                   | Rating  	                                  | FLOAT(2, 1)      |
+| date	                      | The date on which the purchase was made	   | DATE             |
+| time	                      | The time at which the purchase was made	   | TIMESTAMP        |
+| payment_method             | The total amount paid	                     | DECIMAL(10, 2)   |
+| cogs	                      | Cost Of Goods sold	                        | DECIMAL(10, 2)   |
+| gross_margin_percentage	   | Gross margin percentage	                   | FLOAT(11, 9)     |
+| gross_income	              | Gross Income	                              | DECIMAL(10, 2)   |
+| rating	                    | Rating  	                                  | FLOAT(2, 1)      |
 
 <br/>
+
 
 ### Approach Used
 1. **Feature Engineering:** This will help use generate some new columns from existing ones.
@@ -52,14 +53,32 @@ This project's questions and instructions were sourced from this link:
  
 <br/>
 
+
 ### Business Questions To Answer
 
+## Product and Place
+1. How many unique product lines does the data have?
+2. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
+3. Which branch sold more products than average product sold?
+4. What is the most common product line by gender?
+5. What is the average rating of each product line?
 
+## Finance
+1. What is the total revenue by month?
+2. What month had the largest COGS?
+3. What product line had the largest revenue?
 
+## Sales
+1. Number of sales made in each time of the day per weekday
+2. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
+3. Which customer type pays the most in VAT? (**If VAT = 5\%**)
 
-
-
-
+## Customer
+1. How many unique customer types does the data have?
+2. How many unique payment methods does the data have?
+3. Which customer type buys the most?
+4. What is the gender of most of the customers?
+5. Which day fo the week has the best avg ratings?
 
 
 
