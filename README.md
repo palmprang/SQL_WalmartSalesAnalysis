@@ -1,4 +1,4 @@
-# SQL_WalmartSalesAnalysis
+# Walmart Sales Analysis with SQL 
 
 This SQL project explore into Walmart's sales data to identify top-performing branches and products, analyze finance and sales trends, and understand customer behavior.
 
