@@ -78,7 +78,7 @@ This project's questions and instructions were sourced from this link:
 2. How many unique payment methods does the data have?
 3. Which customer type buys the most?
 4. What is the gender of most of the customers?
-5. Which day fo the week has the best avg ratings?
+5. Which time of the day do customers give most ratings per branch?
 
 
 
