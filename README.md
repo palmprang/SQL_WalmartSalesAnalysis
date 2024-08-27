@@ -1,6 +1,6 @@
 # Walmart Sales Analysis with SQL 
 
-This SQL project explore into Walmart's sales data to identify top-performing branches and products, analyze finance and sales trends, and understand customer behavior.
+This SQL project delves into Walmart's sales data to identify top-performing branches and products, analyze financial and sales trends, and gain insights into customer behavior.
 
 This project's questions and instructions were sourced from this link:
 [https://github.com/Princekrampah/WalmartSalesAnalysis](https://github.com/Princekrampah/WalmartSalesAnalysis)
