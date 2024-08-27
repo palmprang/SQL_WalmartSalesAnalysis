@@ -8,10 +8,10 @@
 -- Add the ** time_of_day ** column: give insight of sales in the Morning, Afternoon and Evening.
 select time,
 	case 
-        when `time` between '00:00:00' and '12:00:00' then 'Morning'
-        when `time` between '12:01:00' and '16:00:00' then 'Afternoon'
+        	when `time` between '00:00:00' and '12:00:00' then 'Morning'
+        	when `time` between '12:01:00' and '16:00:00' then 'Afternoon'
         else 'Evening'
-  end as time_of_day
+ 	end as time_of_day
 from walmartsales;
 
 alter table walmartsales 
@@ -19,12 +19,11 @@ alter table walmartsales
 
 update walmartsales
 set time_of_day = (
-  case 
-        when `time` between '00:00:00' and '12:00:00' then 'Morning'
-        when `time` between '12:01:00' and '16:00:00' then 'Afternoon'
+  	case 
+        	when `time` between '00:00:00' and '12:00:00' then 'Morning'
+        	when `time` between '12:01:00' and '16:00:00' then 'Afternoon'
         else 'Evening'
-  end
-);
+  	end);
 
 
 -- Add ** day_name ** column: contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri).
