@@ -74,11 +74,10 @@ This project's questions and instructions were sourced from this link:
 3. Which customer type pays the most in VAT? (**If VAT = 5\%**)
 
 ### Customer
-1. How many unique customer types does the data have?
-2. How many unique payment methods does the data have?
-3. Which customer type buys the most?
-4. What is the gender of most of the customers?
-5. Which time of the day do customers give most ratings per branch?
+1. Which customer type buys the most?
+2. What is the most common payment method?
+3. What is the gender of most of the customers?
+4. Which time of the day do customers give most ratings per branch?
 
 
 
