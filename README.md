@@ -66,7 +66,7 @@ This project's questions and instructions were sourced from this link:
 ### Finance
 1. What is the total revenue by month?
 2. What month had the largest COGS?
-3. What product line had the largest gorss profit?
+3. What product line had the largest gross profit?
 
 ### Sales
 1. Number of sales made in each time of the day per weekday
